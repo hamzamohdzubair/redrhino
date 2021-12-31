@@ -1,7 +1,7 @@
 # Introduction
 
 <h1>
-redant <img style="vertical-align:middle;" alt="logo" src="https://imgur.com/WTfzqxj" height="25px">
+redrhino <img style="vertical-align:middle;" alt="logo" src="https://imgur.com/WTfzqxj.png" height="40px">
 </h1>
 
 Generate a random combination of color and creature. Userful in naming objects, modules, packages, libraries (like this one).
