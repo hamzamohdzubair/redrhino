@@ -1,7 +1,14 @@
 [package]
 name = "redrhino"
+authors = ["Hamza Mohd Zubair <hamzamohdzubair@gmail.com>"]
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+repository = "https://github.com/hamzamohdzubair/redrhino.git"
+readme = "Readme.md"
+keywords = ["machine-learning", "data", "input"]
+categories = ["science"]
+documentation = "https://hamzamohdzubair.github.io/redrhino/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
