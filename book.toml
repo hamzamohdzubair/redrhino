@@ -1,0 +1,9 @@
+[book]
+authors = ["Hamza Zubair"]
+language = "en"
+multilingual = false
+src = "src"
+title = "redrhino"
+
+[build]
+build-dir = "docs"
