@@ -1,6 +1,13 @@
-use sqlx::{Connection, SqliteConnection};
-
+mod cli;
+mod command;
 
 fn main() {
-    let conn = SqliteConnection::connect("sqlite::memory:").await.unwrap();
+    let cli = cli::cli().get_matches();
+
+    match &cli.subcommand() {
+        Some(("convert", args)) => {command::convert(args)}
+        _ => {println!("check help")}
+    }
+
+
 }

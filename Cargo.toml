@@ -13,4 +13,9 @@ documentation = "https://hamzamohdzubair.github.io/redrhino/"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-sqlx = { version = "0.5", features = ["sqlite", "runtime-tokio-rustls"]}
+# sqlx = { version = "0.5", features = ["sqlite", "runtime-tokio-rustls"]}
+polars = { git = "https://github.com/pola-rs/polars", features = ["parquet"] }
+clap = { version = "3.0.7", features = ["cargo"]}
+colored = "2"
+regex = "1"
+indicatif = { version = "0.16" , features = ["improved_unicode"] }
